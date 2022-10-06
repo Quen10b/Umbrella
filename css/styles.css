@@ -53,6 +53,8 @@ hr{
   width:80%;
 }
 body{
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   margin:0 auto 0 auto;
 font-family:Courier New, Courier, Monospace, sans-serif;
@@ -82,8 +84,6 @@ text-align: center;
 }
 .ulogo{
 margin:15px 0 15px 0;
-
-
 }
 /*
 .ulogo{
@@ -113,9 +113,10 @@ opacity: .85;
 }
 .bottom{
 background-color: none;
-width: 100%;
+width: 100vw;
 height:300px;
 opacity: .85;
+margin: 10px auto 10px auto;
 
 }
 h2{
@@ -150,6 +151,11 @@ footer a:hover {
   letter-spacing: 1px;
   margin-top: 5px;
   color:white;
+}
+.button{
+
+margin:15px auto 15px auto;
+
 }
 
 .myButton {
@@ -216,6 +222,11 @@ width:2000px;
 height:100%;
 
 }
+
+
+
+
+]
 form{
 opacity: .6;
 }
